@@ -1,0 +1,147 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    width: 100%;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.control-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.control-row {
+    /* padding: .3rem; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.form-control {
+    min-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: .5rem;
+}
+
+.form-control-text-editor {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: .5rem;
+}
+
+.form-control-draggable-upload {
+    width: 100%;
+    padding: .5rem;
+}
+
+.form-action {
+    padding: .5rem;
+}
+
+.action-row {
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+.submit-button {
+    border: none;
+    padding: .5rem 1.5rem .5rem 1.5rem;
+    background-color: #2098d1;
+    color: white;
+    border-radius: .4rem;
+    cursor: pointer;
+}
+
+.button {
+    border: 1px solid rgb(206, 206, 206);
+    padding: .5rem 1.5rem .5rem 1.5rem;
+    color: black;
+    border-radius: .4rem;
+    cursor: pointer;
+    background: none;
+    margin-left: .5rem;
+}
+
+.cancel-button {
+    border: 1px solid rgb(206, 206, 206);
+    background-color: rgb(255, 22, 22);
+    padding: .5rem 1.5rem .5rem 1.5rem;
+    color: white;
+    border-radius: .4rem;
+    cursor: pointer;
+    margin-left: .5rem;
+}
+
+input {
+    width: 100%;
+}
+
+.media-list-item {
+    margin-top: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content !important;
+}
+
+.media-list-item:hover {
+    /* margin-top: 1rem; */
+    /* padding: 3rem; */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content !important;
+    box-shadow: 1px 1px 1px rgb(220, 219, 219);
+    background-color: #04b441;
+}
+
+.control-row-flex-column {
+    display: flex;
+    flex-direction: column;
+    min-width: fit-content;
+}
+
+.form-control-link-input {
+    display: flex;
+    padding: .5rem;
+}
+
+.form-control-link-input label {
+    width: fit-content;
+    text-align: left;
+    margin-right: 1rem;
+}
+
+.form-control-link-input Input {
+    flex: 2;
+    width: 20rem;
+}
+
+.overlay {
+    background: rgba(136, 136, 136, 0.767);
+    z-index: 1000;
+    height: 100vh;
+    width: 100vw;
+    cursor: pointer;
+}

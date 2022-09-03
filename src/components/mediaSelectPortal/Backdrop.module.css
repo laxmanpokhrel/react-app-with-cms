@@ -1,0 +1,10 @@
+.overlay {
+    background: rgba(136, 136, 136, 0.767);
+    z-index: 1000;
+    height: 100vh;
+    width: 100vw;
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
