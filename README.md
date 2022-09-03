@@ -1,6 +1,6 @@
 # Get This App up And Running
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-But we don't have to do it.
+But we don't have to do it. Just clone this repo and follow the guidelines.
 
 ## Steps to get started:
 1. Simply clone this repo.
