@@ -9,13 +9,6 @@ But we don't have to do it.
 4. Initialize it to the base url of the server. For locally running it might be like "http://localhost:3001/api/v1" 
 5. Run npm start, wait for development server to start and we are good to go!
 
-
-## Guide for product owners:
-Please make sure a react-app can be successfully created by using "npx create-react-app my-app" in you device to run this app successfully. 
-[Follow these instructions to successfully run "npx create-react-app my-app" ](https://create-react-app.dev/docs/getting-started)
-[Download node.js from here!](https://nodejs.org/en/download/)
-***Note: Please do match the node engine verion before begining the setup! (Any latest verion is good to go) ***
-
 ## Guide for developers:
 "Every developer has his/her own set of ideas to solve a given problem."
 That being said every code that solves a problem should be maintainable and understandable.
